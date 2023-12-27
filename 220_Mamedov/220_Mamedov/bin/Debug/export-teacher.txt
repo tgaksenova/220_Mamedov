@@ -1,0 +1,5 @@
+{ StudentCard = 1, Surname = Mamedov, Name = Ruslan, Patronymic = Elshanovich, Group = 220, TestID = 1, RightAnswers = 1, QuestionsCount = 2, Mark = 50% }
+{ StudentCard = 5, Surname = Ivanov, Name = Petr, Patronymic = Nikolaevich, Group = 120, TestID = 2, RightAnswers = 1, QuestionsCount = 2, Mark = 50% }
+{ StudentCard = 2, Surname = Ivanov, Name = Ivan, Patronymic = Ivanych, Group = 220, TestID = 3, RightAnswers = 1, QuestionsCount = 4, Mark = 25% }
+{ StudentCard = 1, Surname = Mamedov, Name = Ruslan, Patronymic = Elshanovich, Group = 220, TestID = 4, RightAnswers = 0, QuestionsCount = 1, Mark = 0% }
+{ StudentCard = 3, Surname = Petrov, Name = Petr, Patronymic = , Group = 320, TestID = 6, RightAnswers = 0, QuestionsCount = 1, Mark = 0% }

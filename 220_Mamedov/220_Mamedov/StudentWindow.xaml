@@ -1,0 +1,42 @@
+﻿<Window x:Class="_220_Mamedov.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_220_Mamedov"
+        mc:Ignorable="d"
+        Title="StudentWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock>
+                TestID:
+            </TextBlock>
+            <TextBox Name="SearchBox"  TextChanged="TextBox_TextChanged" Grid.Column="1">
+            </TextBox>
+        </Grid>
+        <DataGrid x:Name="Table" IsReadOnly="True" Grid.Row="1">
+
+        </DataGrid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Click="Export_Click">
+                Экспорт
+            </Button>
+            <Button Grid.Column="1" Click="View_Click">
+                Посмотреть подробности
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
